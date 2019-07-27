@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+	case of /* Start Case Expression $1 */
+	(
+		( ${2:var1}  == 0):
+		(
+			-- do stuff here
+			)
+		( ${3:var2} == 1):
+		(
+			-- do stuff here
+			)
+		) /* End case ${1/\*//} */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>case</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.maxscript</scope>
+	<!-- Optional: Description to show in the menu -->
+  <description>MAXScript Case Expression</description>
+</snippet>
